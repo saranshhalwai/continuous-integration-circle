@@ -7,7 +7,7 @@ jobs:
   build:
     executor: ci-executor
     steps:
-      - checkout master
+      - checkout
 
       - run:
           name: build dependencies
