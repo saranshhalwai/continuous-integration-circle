@@ -20,7 +20,7 @@ jobs:
       - run:
           name: notify build is finished
           command: echo "The build is finished!"
-add-links
+add-links:
           
   testlinks:
     executor: ci-executor
